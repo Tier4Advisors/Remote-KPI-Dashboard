@@ -1,0 +1,237 @@
+{
+  "ngDeps": null,
+  "type": {
+    "EasingFunction": {
+      "class": "Identifier",
+      "name": "EasingFunction",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInBack": {
+      "class": "Identifier",
+      "name": "easeInBack",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInBounce": {
+      "class": "Identifier",
+      "name": "easeInBounce",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInCirc": {
+      "class": "Identifier",
+      "name": "easeInCirc",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInCubic": {
+      "class": "Identifier",
+      "name": "easeInCubic",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInElastic": {
+      "class": "Identifier",
+      "name": "easeInElastic",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInExpo": {
+      "class": "Identifier",
+      "name": "easeInExpo",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutBack": {
+      "class": "Identifier",
+      "name": "easeInOutBack",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutBounce": {
+      "class": "Identifier",
+      "name": "easeInOutBounce",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutCirc": {
+      "class": "Identifier",
+      "name": "easeInOutCirc",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutCubic": {
+      "class": "Identifier",
+      "name": "easeInOutCubic",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutElastic": {
+      "class": "Identifier",
+      "name": "easeInOutElastic",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutExpo": {
+      "class": "Identifier",
+      "name": "easeInOutExpo",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutQuad": {
+      "class": "Identifier",
+      "name": "easeInOutQuad",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutQuart": {
+      "class": "Identifier",
+      "name": "easeInOutQuart",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutQuint": {
+      "class": "Identifier",
+      "name": "easeInOutQuint",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInOutSine": {
+      "class": "Identifier",
+      "name": "easeInOutSine",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInQuad": {
+      "class": "Identifier",
+      "name": "easeInQuad",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInQuart": {
+      "class": "Identifier",
+      "name": "easeInQuart",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInQuint": {
+      "class": "Identifier",
+      "name": "easeInQuint",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeInSine": {
+      "class": "Identifier",
+      "name": "easeInSine",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutBack": {
+      "class": "Identifier",
+      "name": "easeOutBack",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutBounce": {
+      "class": "Identifier",
+      "name": "easeOutBounce",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutCirc": {
+      "class": "Identifier",
+      "name": "easeOutCirc",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutCubic": {
+      "class": "Identifier",
+      "name": "easeOutCubic",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutElastic": {
+      "class": "Identifier",
+      "name": "easeOutElastic",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutExpo": {
+      "class": "Identifier",
+      "name": "easeOutExpo",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutQuad": {
+      "class": "Identifier",
+      "name": "easeOutQuad",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutQuart": {
+      "class": "Identifier",
+      "name": "easeOutQuart",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutQuint": {
+      "class": "Identifier",
+      "name": "easeOutQuint",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "easeOutSine": {
+      "class": "Identifier",
+      "name": "easeOutSine",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "getEasingFunction": {
+      "class": "Identifier",
+      "name": "getEasingFunction",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    },
+    "linear": {
+      "class": "Identifier",
+      "name": "linear",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/animation.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

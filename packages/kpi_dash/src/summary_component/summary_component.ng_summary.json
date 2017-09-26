@@ -1,0 +1,153 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular_components/angular_components.dart",
+        "5": false
+      },
+      {
+        "1": "package:kpi_dash/pi_charts/pi_charts.dart",
+        "5": false
+      },
+      {
+        "1": "package:kpi_dash/src/models/year.dart",
+        "5": false
+      },
+      {
+        "1": "package:kpi_dash/src/services/firebase_service.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SummaryComponent",
+        "5": [
+          {
+            "1": "FirebaseService",
+            "4": "fbService"
+          }
+        ],
+        "6": [
+          "AfterContentInit",
+          "DoCheck"
+        ],
+        "7": [
+          {
+            "2": "materialDirectives"
+          },
+          {
+            "2": "COMMON_DIRECTIVES"
+          },
+          {
+            "2": "CORE_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "summary_component.dart"
+  },
+  "type": {
+    "SummaryComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "my-summary",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "SummaryComponent",
+        "moduleUrl": "asset:kpi_dash/lib/src/summary_component/summary_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FirebaseService",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "year": "year"
+      },
+      "inputTypes": {
+        "year": " Year"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        4,
+        2
+      ],
+      "template": {
+        "encapsulation": 0,
+        "template": "<body>\r\n<h3 style=\"text-align: center\">{{year.year}}</h3>\r\n<div class=\"graph-main\" #canvasMain id=\"canvas0\" height=\"450\" width=\"600\"></div>\r\n<div #canvas1 class=\"graph\">\r\n</div>\r\n</body>\r\n",
+        "templateUrl": "asset:kpi_dash/lib/src/summary_component/summary_component.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:kpi_dash/lib/src/summary_component/summary_component.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": [
+        {
+          "selectors": [
+            {
+              "value": "canvasMain",
+              "identifier": null,
+              "identifierIsInstance": false
+            }
+          ],
+          "descendants": true,
+          "first": true,
+          "propertyName": "canvas",
+          "read": null
+        },
+        {
+          "selectors": [
+            {
+              "value": "canvas1",
+              "identifier": null,
+              "identifierIsInstance": false
+            }
+          ],
+          "descendants": true,
+          "first": true,
+          "propertyName": "div",
+          "read": null
+        }
+      ]
+    }
+  },
+  "alias": {}
+}

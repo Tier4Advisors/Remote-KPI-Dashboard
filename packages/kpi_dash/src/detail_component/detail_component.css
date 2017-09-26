@@ -1,0 +1,23 @@
+.red {
+    background-color: #f44336;
+    color: white;
+}
+
+.gray{
+    background-color: darkgrey;
+    color: white;
+}
+.blue{
+    background-color: dodgerblue;
+    color: white;
+}
+.smallText{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    font-weight: 400;
+}
+.normalText{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}

@@ -1,0 +1,36 @@
+.red {
+    background-color: #f44336;
+    color: white;
+}
+
+.gray{
+    background-color: darkgrey;
+    color: white;
+}
+.blue{
+    background-color: dodgerblue;
+    color: white;
+}
+.passInput{
+    width: 95%;
+}
+.left{
+    width: 50%;
+    float: left
+}
+.right{
+    width: 50%;float: right
+}
+.passButton{
+    text-align: center;
+}
+.small{
+    font-size: xx-small;
+    text-align: right;
+    color: darkgrey;
+}
+h3{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}

@@ -1,0 +1,313 @@
+{
+  "ngDeps": {
+    "1": "pi_charts",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:math",
+        "5": false
+      },
+      {
+        "1": "src/animation.dart",
+        "5": false
+      },
+      {
+        "1": "src/datatable.dart",
+        "5": false
+      },
+      {
+        "1": "src/utils.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "src/datatable.dart"
+      }
+    ],
+    "6": "pi_charts.dart",
+    "7": [
+      {
+        "1": "src/animation.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "src/datatable.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "src/utils.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "type": {
+    "Chart": {
+      "class": "Identifier",
+      "name": "Chart",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataCellChangeRecord": {
+      "class": "Identifier",
+      "name": "DataCellChangeRecord",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataCollectionBase": {
+      "class": "Identifier",
+      "name": "DataCollectionBase",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataCollectionChangeRecord": {
+      "class": "Identifier",
+      "name": "DataCollectionChangeRecord",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataCollectionIterator": {
+      "class": "Identifier",
+      "name": "DataCollectionIterator",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataColumn": {
+      "class": "Identifier",
+      "name": "DataColumn",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataColumnCollection": {
+      "class": "Identifier",
+      "name": "DataColumnCollection",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataRow": {
+      "class": "Identifier",
+      "name": "DataRow",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataRowCollection": {
+      "class": "Identifier",
+      "name": "DataRowCollection",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataTable": {
+      "class": "Identifier",
+      "name": "DataTable",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "GaugeChart": {
+      "class": "Identifier",
+      "name": "GaugeChart",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "LabelFormatter": {
+      "class": "Identifier",
+      "name": "LabelFormatter",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "PieChart": {
+      "class": "Identifier",
+      "name": "PieChart",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ValueFormatter": {
+      "class": "Identifier",
+      "name": "ValueFormatter",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_2PI": {
+      "class": "Identifier",
+      "name": "_2PI",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_Entity": {
+      "class": "Identifier",
+      "name": "_Entity",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_Gauge": {
+      "class": "Identifier",
+      "name": "_Gauge",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_PI_2": {
+      "class": "Identifier",
+      "name": "_PI_2",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_Pie": {
+      "class": "Identifier",
+      "name": "_Pie",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_Series": {
+      "class": "Identifier",
+      "name": "_Series",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_TableEntity": {
+      "class": "Identifier",
+      "name": "_TableEntity",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_VisibilityState": {
+      "class": "Identifier",
+      "name": "_VisibilityState",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_axisLabelMargin": {
+      "class": "Identifier",
+      "name": "_axisLabelMargin",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_chartPadding": {
+      "class": "Identifier",
+      "name": "_chartPadding",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_chartTitleMargin": {
+      "class": "Identifier",
+      "name": "_chartTitleMargin",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_clockwise": {
+      "class": "Identifier",
+      "name": "_clockwise",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_counterclockwise": {
+      "class": "Identifier",
+      "name": "_counterclockwise",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_defaultLabelFormatter": {
+      "class": "Identifier",
+      "name": "_defaultLabelFormatter",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_defaultValueFormatter": {
+      "class": "Identifier",
+      "name": "_defaultValueFormatter",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_fontFamily": {
+      "class": "Identifier",
+      "name": "_fontFamily",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_gaugeStartAngle": {
+      "class": "Identifier",
+      "name": "_gaugeStartAngle",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_highlightOuterRadiusFactor": {
+      "class": "Identifier",
+      "name": "_highlightOuterRadiusFactor",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_legendMargin": {
+      "class": "Identifier",
+      "name": "_legendMargin",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_resizeAll": {
+      "class": "Identifier",
+      "name": "_resizeAll",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_titlePadding": {
+      "class": "Identifier",
+      "name": "_titlePadding",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_windowResize": {
+      "class": "Identifier",
+      "name": "_windowResize",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    },
+    "createGaugeChart": {
+      "class": "Identifier",
+      "name": "createGaugeChart",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/pi_charts.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,155 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:core",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular_components/angular_components.dart",
+        "5": false
+      },
+      {
+        "1": "package:kpi_dash/src/models/models.dart",
+        "5": false
+      },
+      {
+        "1": "package:kpi_dash/src/models/year.dart",
+        "5": false
+      },
+      {
+        "1": "package:kpi_dash/src/services/firebase_service.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DirectiveComponent",
+        "5": [
+          {
+            "1": "FirebaseService",
+            "4": "fbService"
+          }
+        ],
+        "7": [
+          {
+            "2": "materialDirectives"
+          },
+          {
+            "2": "COMMON_DIRECTIVES"
+          },
+          {
+            "2": "CORE_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "directive_component.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:angular_components/angular_components.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:kpi_dash/src/models/models.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:kpi_dash/src/models/year.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "package:kpi_dash/src/services/firebase_service.template.dart",
+        "4": "i5"
+      }
+    ]
+  },
+  "type": {
+    "DirectiveComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "my-dir",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DirectiveComponent",
+        "moduleUrl": "asset:kpi_dash/lib/src/directive_component/directive_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FirebaseService",
+                "moduleUrl": "asset:kpi_dash/lib/src/services/firebase_service.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "year": "year",
+        "goal": "goal",
+        "strat": "strat",
+        "init": "init"
+      },
+      "inputTypes": {
+        "year": " Year",
+        "goal": " Goal",
+        "strat": " Strategy",
+        "init": " Initiative"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<material-expansionpanel-set>\r\n    <material-expansionpanel flat name=\"Directives\" [showSaveCancel]=\"false\" [hideExpandedHeader]=\"true\">\r\n        <div *ngFor=\"let dir of init.directives\">\r\n            <h3>\r\n                Directive {{init.directives.indexOf(dir)+1}}\r\n            </h3>\r\n            <material-input style=\"width:43%\" floatingLabel label=\"Directive Name\"\r\n                            [(ngModel)]=\"dir.name\"></material-input>\r\n            <material-input style=\"width:43%\" floatingLabel label=\"Accountability (Data Entry)\"\r\n                            [(ngModel)]=\"dir.description\"></material-input>\r\n            <material-input #maxVal style=\"width:10%\" floatingLabel label=\"Directive Max Value\"\r\n                            [ngModel]=\"dir.maxValue.toString()\"></material-input>\r\n            <br>\r\n            <material-fab raised mini class=\"red\" (click)=\"delete(dir)\">\r\n                <glyph icon=\"delete\"></glyph>\r\n            </material-fab>\r\n            <material-fab raised class=\"blue\" (click)=\"update(dir,maxVal.inputText)\">\r\n                <glyph icon=\"save\"></glyph>\r\n            </material-fab>\r\n            <br>\r\n            <br>\r\n            <hr>\r\n            <br>\r\n        </div>\r\n        <h3>Add Directive</h3>\r\n        <material-input #name style=\"width:42%\" type=\"text\" floatingLabel label=\"Directive Name\"></material-input>\r\n        <material-input #desc style=\"width:42%\" type=\"text\" floatingLabel label=\"Accountability (Data Entry)\"></material-input>\r\n        <material-input #maxv style=\"width:10%\" type=\"number\" floatingLabel label=\"Max Value\"\r\n                        (keyup.enter)=\"add(name.inputText,desc.inputText,maxv.inputText)\" (keyup.enter)=\"name.inputText=''\"\r\n                        (keyup.enter)=\"desc.inputText=''\"(keyup.enter)=\"maxv.inputText=''\"></material-input>\r\n\r\n        <material-fab raised mini class=\"blue\" (click)=\"add(name.inputText, desc.inputText, maxv.inputText)\"\r\n                      (click)=\"name.inputText=''\" (click)=\"desc.inputText=''\"\r\n                      (click)=\"maxv.inputText=''\">\r\n            <glyph icon=\"add_circle\"></glyph>\r\n        </material-fab>\r\n        <br>\r\n        <br>\r\n    </material-expansionpanel>\r\n</material-expansionpanel-set>\r\n\r\n<modal [(visible)]=\"saveDialog\">\r\n    <material-dialog\r\n            info\r\n            [autoDismissable]=\"true\"\r\n            (dismiss)=\"saveDialog = false\"\r\n            autoFocus (keyup.enter)=\"saveDialog = false\">\r\n        <div header style=\"text-align: center\">\r\n            <h3>{{message}}</h3>\r\n        </div>\r\n        <br>\r\n        <br>\r\n        <material-button raised class=\"gray\" (trigger)=\"fbService.preventAdditional = true\" (trigger)=\"saveDialog=false\">\r\n            prevent additional\r\n        </material-button>\r\n    </material-dialog>\r\n</modal>",
+        "templateUrl": "asset:kpi_dash/lib/src/directive_component/directive_component.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:kpi_dash/lib/src/directive_component/directive_component.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,76 @@
+{
+  "ngDeps": null,
+  "type": {
+    "DataCellChangeRecord": {
+      "class": "Identifier",
+      "name": "DataCellChangeRecord",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataCollectionBase": {
+      "class": "Identifier",
+      "name": "DataCollectionBase",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataCollectionChangeRecord": {
+      "class": "Identifier",
+      "name": "DataCollectionChangeRecord",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataCollectionIterator": {
+      "class": "Identifier",
+      "name": "DataCollectionIterator",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataColumn": {
+      "class": "Identifier",
+      "name": "DataColumn",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataColumnCollection": {
+      "class": "Identifier",
+      "name": "DataColumnCollection",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataRow": {
+      "class": "Identifier",
+      "name": "DataRow",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataRowCollection": {
+      "class": "Identifier",
+      "name": "DataRowCollection",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DataTable": {
+      "class": "Identifier",
+      "name": "DataTable",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_TableEntity": {
+      "class": "Identifier",
+      "name": "_TableEntity",
+      "moduleUrl": "asset:kpi_dash/lib/pi_charts/src/datatable.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

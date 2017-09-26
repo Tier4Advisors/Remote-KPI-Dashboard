@@ -1,0 +1,28 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "goal.dart",
+        "5": false
+      }
+    ],
+    "6": "year.dart",
+    "7": [
+      {
+        "1": "goal.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "Year": {
+      "class": "Identifier",
+      "name": "Year",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/year.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

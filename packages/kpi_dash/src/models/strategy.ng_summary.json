@@ -1,0 +1,43 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "initiative.dart",
+        "5": false
+      }
+    ],
+    "6": "strategy.dart"
+  },
+  "type": {
+    "Strategy": {
+      "class": "Identifier",
+      "name": "Strategy",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    },
+    "desc2TagText": {
+      "class": "Identifier",
+      "name": "desc2TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    },
+    "initiativesTagText": {
+      "class": "Identifier",
+      "name": "initiativesTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    },
+    "name2TagText": {
+      "class": "Identifier",
+      "name": "name2TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

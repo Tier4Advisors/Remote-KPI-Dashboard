@@ -1,0 +1,13 @@
+.red {
+    background-color: #f44336;
+    color: white;
+}
+
+.gray{
+    background-color: darkgrey;
+    color: white;
+}
+.blue{
+    background-color: dodgerblue;
+    color: white;
+}

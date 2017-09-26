@@ -1,0 +1,57 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:kpi_dash/pi_charts/src/datatable.dart",
+        "5": false
+      },
+      {
+        "1": "strategy.dart",
+        "5": false
+      }
+    ],
+    "6": "goal.dart",
+    "7": [
+      {
+        "1": "package:kpi_dash/pi_charts/src/datatable.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "strategy.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "Goal": {
+      "class": "Identifier",
+      "name": "Goal",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "descTagText": {
+      "class": "Identifier",
+      "name": "descTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "nameTagText": {
+      "class": "Identifier",
+      "name": "nameTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "stratTagText": {
+      "class": "Identifier",
+      "name": "stratTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

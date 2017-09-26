@@ -1,0 +1,48 @@
+<material-expansionpanel-set>
+    <material-expansionpanel *ngFor="let goal of year.goals" flat
+                             name="Goal {{year.goals.indexOf(goal)+1}}: {{goal.name}}"
+                             secondaryText="{{goal.description}}"
+                             [showSaveCancel]="false">
+        <material-expansionpanel-set>
+            <material-expansionpanel *ngFor="let strat of goal.strategies" flat
+                                     name="Strategy {{goal.strategies.indexOf(strat)+1}}: {{strat.name}}"
+                                     secondaryText="{{strat.description}}"
+                                     [showSaveCancel]="false">
+                <material-expansionpanel-set>
+                    <material-expansionpanel *ngFor="let init of strat.initiatives" flat
+                                             name="Initiative {{strat.initiatives.indexOf(init)+1}}: {{init.name}}"
+                                             secondaryText="{{init.description}}"
+                                             [showSaveCancel]="false">
+                        <div *ngFor="let dir of init.directives">
+                            <div style="position: relative;left: 2%">
+                                <div class="normalText">{{init.directives.indexOf(dir)+1}}. {{dir.name}}</div>
+                                <div class="smallText">{{dir.description}}</div>
+                                <red-material-progress *ngIf="dir.percentage < 33"
+                                                       [activeProgress]=dir.percentage></red-material-progress>
+                                <yellow-material-progress *ngIf="dir.percentage > 32 && dir.percentage < 67"
+                                                          [activeProgress]=dir.percentage></yellow-material-progress>
+                                <green-material-progress *ngIf="dir.percentage >66"
+                                                         [activeProgress]=dir.percentage></green-material-progress>
+                                <br>
+                                <div class="smallText" style="text-align: right;margin-right: 2%">
+                                    {{dir.total}} / {{dir.maxValue}}
+                                </div>
+                            </div>
+                            <div *ngIf="init.directives.indexOf(dir) < (init.directives.length-1)">
+                                <!--<hr>-->
+                                <br>
+                            </div>
+                        </div>
+                    </material-expansionpanel>
+                </material-expansionpanel-set>
+            </material-expansionpanel>
+        </material-expansionpanel-set>
+    </material-expansionpanel>
+</material-expansionpanel-set>
+
+
+
+
+
+
+

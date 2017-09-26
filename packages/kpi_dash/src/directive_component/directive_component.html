@@ -1,0 +1,57 @@
+<material-expansionpanel-set>
+    <material-expansionpanel flat name="Directives" [showSaveCancel]="false" [hideExpandedHeader]="true">
+        <div *ngFor="let dir of init.directives">
+            <h3>
+                Directive {{init.directives.indexOf(dir)+1}}
+            </h3>
+            <material-input style="width:43%" floatingLabel label="Directive Name"
+                            [(ngModel)]="dir.name"></material-input>
+            <material-input style="width:43%" floatingLabel label="Accountability (Data Entry)"
+                            [(ngModel)]="dir.description"></material-input>
+            <material-input #maxVal style="width:10%" floatingLabel label="Directive Max Value"
+                            [ngModel]="dir.maxValue.toString()"></material-input>
+            <br>
+            <material-fab raised mini class="red" (click)="delete(dir)">
+                <glyph icon="delete"></glyph>
+            </material-fab>
+            <material-fab raised class="blue" (click)="update(dir,maxVal.inputText)">
+                <glyph icon="save"></glyph>
+            </material-fab>
+            <br>
+            <br>
+            <hr>
+            <br>
+        </div>
+        <h3>Add Directive</h3>
+        <material-input #name style="width:42%" type="text" floatingLabel label="Directive Name"></material-input>
+        <material-input #desc style="width:42%" type="text" floatingLabel label="Accountability (Data Entry)"></material-input>
+        <material-input #maxv style="width:10%" type="number" floatingLabel label="Max Value"
+                        (keyup.enter)="add(name.inputText,desc.inputText,maxv.inputText)" (keyup.enter)="name.inputText=''"
+                        (keyup.enter)="desc.inputText=''"(keyup.enter)="maxv.inputText=''"></material-input>
+
+        <material-fab raised mini class="blue" (click)="add(name.inputText, desc.inputText, maxv.inputText)"
+                      (click)="name.inputText=''" (click)="desc.inputText=''"
+                      (click)="maxv.inputText=''">
+            <glyph icon="add_circle"></glyph>
+        </material-fab>
+        <br>
+        <br>
+    </material-expansionpanel>
+</material-expansionpanel-set>
+
+<modal [(visible)]="saveDialog">
+    <material-dialog
+            info
+            [autoDismissable]="true"
+            (dismiss)="saveDialog = false"
+            autoFocus (keyup.enter)="saveDialog = false">
+        <div header style="text-align: center">
+            <h3>{{message}}</h3>
+        </div>
+        <br>
+        <br>
+        <material-button raised class="gray" (trigger)="fbService.preventAdditional = true" (trigger)="saveDialog=false">
+            prevent additional
+        </material-button>
+    </material-dialog>
+</modal>

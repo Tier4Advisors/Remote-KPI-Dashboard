@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<div *ngIf="!authen">
+    <material-input #pass floatingLabel label="Password" type="password"
+                    (keyup.enter)="checkPass(pass.inputText)"></material-input>
+    <material-fab mini raised (click)="checkPass(pass.inputText)">
+        <glyph icon="keyboard_arrow_right"></glyph>
+    </material-fab>
+</div>
+
+<div *ngIf="authen">
+    <material-select style="float: left" [width]="0" class="bordered-list">
+        <material-select-item *ngFor="let yr of fbService.years"
+                              (trigger)="year = yr"
+                              [selected]="year == yr">
+            {{yr.toNum()}}
+        </material-select-item>
+    </material-select>
+    <div style="width:100%;text-align: center">
+        <img src="t4.jpg" style="width:25%;height:25%;">
+    </div>
+    <br>
+    <material-tab-panel>
+        <material-tab label="summary">
+            <div *ngIf="year !=null" class="tab">
+                <my-summary [year]="year"></my-summary>
+            </div>
+        </material-tab>
+
+        <material-tab label="details">
+            <div *ngIf="year !=null" class="tab">
+                <detail [year]="year"></detail>
+            </div>
+        </material-tab>
+        <material-tab label="admin">
+            <div *ngIf="year!=null" class="tab">
+                <my-goal [year]="year"></my-goal>
+            </div>
+        </material-tab>
+        <material-tab label="data entry">
+            <div *ngIf="year !=null" class="tab">
+                <my-val [year]="year"></my-val>
+            </div>
+        </material-tab>
+    </material-tab-panel>
+</div>
+</body>
+<modal [(visible)]="saveDialog">
+    <material-dialog
+            info
+            [autoDismissable]="true"
+            (dismiss)="saveDialog = false"
+            autoFocus (keyup.enter)="saveDialog = false">
+        <div header>
+            <h3>{{message}}</h3>
+        </div>
+    </material-dialog>
+</modal>
+</html>
+
+

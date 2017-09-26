@@ -1,0 +1,202 @@
+{
+  "ngDeps": {
+    "1": "models",
+    "4": [
+      {
+        "1": "goal.dart"
+      },
+      {
+        "1": "initiative.dart"
+      },
+      {
+        "1": "directive.dart"
+      },
+      {
+        "1": "strategy.dart"
+      },
+      {
+        "1": "value.dart"
+      },
+      {
+        "1": "year.dart"
+      }
+    ],
+    "6": "models.dart",
+    "7": [
+      {
+        "1": "goal.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "initiative.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "directive.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "strategy.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "value.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "year.template.dart",
+        "4": "i5"
+      }
+    ]
+  },
+  "type": {
+    "Dir": {
+      "class": "Identifier",
+      "name": "Dir",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/directive.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Goal": {
+      "class": "Identifier",
+      "name": "Goal",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Initiative": {
+      "class": "Identifier",
+      "name": "Initiative",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/initiative.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Strategy": {
+      "class": "Identifier",
+      "name": "Strategy",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Value": {
+      "class": "Identifier",
+      "name": "Value",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/value.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Year": {
+      "class": "Identifier",
+      "name": "Year",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/year.dart",
+      "prefix": null,
+      "value": null
+    },
+    "desc2TagText": {
+      "class": "Identifier",
+      "name": "desc2TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    },
+    "desc3TagText": {
+      "class": "Identifier",
+      "name": "desc3TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/initiative.dart",
+      "prefix": null,
+      "value": null
+    },
+    "desc4TagText": {
+      "class": "Identifier",
+      "name": "desc4TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/directive.dart",
+      "prefix": null,
+      "value": null
+    },
+    "descTagText": {
+      "class": "Identifier",
+      "name": "descTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "directivesTagText": {
+      "class": "Identifier",
+      "name": "directivesTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/initiative.dart",
+      "prefix": null,
+      "value": null
+    },
+    "initiativesTagText": {
+      "class": "Identifier",
+      "name": "initiativesTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    },
+    "maxValTagText": {
+      "class": "Identifier",
+      "name": "maxValTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/directive.dart",
+      "prefix": null,
+      "value": null
+    },
+    "monthTagText": {
+      "class": "Identifier",
+      "name": "monthTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/value.dart",
+      "prefix": null,
+      "value": null
+    },
+    "name2TagText": {
+      "class": "Identifier",
+      "name": "name2TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/strategy.dart",
+      "prefix": null,
+      "value": null
+    },
+    "name3TagText": {
+      "class": "Identifier",
+      "name": "name3TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/initiative.dart",
+      "prefix": null,
+      "value": null
+    },
+    "name4TagText": {
+      "class": "Identifier",
+      "name": "name4TagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/directive.dart",
+      "prefix": null,
+      "value": null
+    },
+    "nameTagText": {
+      "class": "Identifier",
+      "name": "nameTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "stratTagText": {
+      "class": "Identifier",
+      "name": "stratTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/goal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "valTagText": {
+      "class": "Identifier",
+      "name": "valTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/value.dart",
+      "prefix": null,
+      "value": null
+    },
+    "valuesTagText": {
+      "class": "Identifier",
+      "name": "valuesTagText",
+      "moduleUrl": "asset:kpi_dash/lib/src/models/directive.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

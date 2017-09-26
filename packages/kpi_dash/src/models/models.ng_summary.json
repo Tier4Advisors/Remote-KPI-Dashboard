@@ -1,0 +1,28 @@
+{
+  "ngDeps": {
+    "1": "models",
+    "4": [
+      {
+        "1": "goal.dart"
+      },
+      {
+        "1": "initiative.dart"
+      },
+      {
+        "1": "directive.dart"
+      },
+      {
+        "1": "strategy.dart"
+      },
+      {
+        "1": "value.dart"
+      },
+      {
+        "1": "year.dart"
+      }
+    ],
+    "6": "models.dart"
+  },
+  "type": {},
+  "alias": {}
+}

@@ -1,0 +1,53 @@
+<material-expansionpanel-set>
+    <material-expansionpanel flat name="Strategies" [showSaveCancel]="false" [hideExpandedHeader]="true">
+        <div *ngFor="let strat of goal.strategies">
+            <h3>
+                Strategy {{goal.strategies.indexOf(strat)+1}}
+            </h3>
+            <material-input style="width:47%" floatingLabel label="Strategy Name"
+                            [(ngModel)]="strat.name"></material-input>
+            <material-input style="width:47%" floatingLabel label="Strategy Description"
+                            [(ngModel)]="strat.description"></material-input>
+            <my-init [year]=year [goal]=goal [strat]="strat"></my-init>
+            <br>
+            <material-fab raised mini class="red" (click)="delete(strat)">
+                <glyph icon="delete"></glyph>
+            </material-fab>
+            <material-fab raised class="blue" (click)="update(strat)">
+                <glyph icon="save"></glyph>
+            </material-fab>
+            <br>
+            <br>
+            <hr>
+            <br>
+        </div>
+        <h3>Add Strategy</h3>
+        <material-input #name style="width:47%" type="text" floatingLabel label="Strategy Name"></material-input>
+        <material-input #desc style="width:47%" type="text" floatingLabel label="Strategy Description"
+                        (keyup.enter)="add(name.inputText,desc.inputText)" (keyup.enter)="name.inputText=''"
+                        (keyup.enter)="desc.inputText=''"></material-input>
+        <material-fab raised mini class="blue" (click)="add(name.inputText, desc.inputText)"
+                      (click)="name.inputText=''" (click)="desc.inputText=''">
+            <glyph icon="add_circle"></glyph>
+        </material-fab>
+        <br>
+        <br>
+    </material-expansionpanel>
+</material-expansionpanel-set>
+
+<modal [(visible)]="saveDialog">
+    <material-dialog
+            info
+            [autoDismissable]="true"
+            (dismiss)="saveDialog = false"
+            autoFocus (keyup.enter)="saveDialog = false">
+        <div header style="text-align: center">
+            <h3>{{message}}</h3>
+        </div>
+        <br>
+        <br>
+        <material-button raised class="gray" (trigger)="fbService.preventAdditional = true" (trigger)="saveDialog=false">
+            prevent additional
+        </material-button>
+    </material-dialog>
+</modal>
